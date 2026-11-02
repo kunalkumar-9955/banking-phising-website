@@ -1,0 +1,602 @@
+[
+  {
+    "antecedent": [
+      "very_young_domain",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.062,
+    "confidence": 0.9323,
+    "lift": 2.4763,
+    "antecedent_count": 133,
+    "rule_count": 124
+  },
+  {
+    "antecedent": [
+      "no_right_click",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.065,
+    "confidence": 0.9155,
+    "lift": 2.4316,
+    "antecedent_count": 142,
+    "rule_count": 130
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0585,
+    "confidence": 0.9141,
+    "lift": 2.4278,
+    "antecedent_count": 128,
+    "rule_count": 117
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "very_young_domain"
+    ],
+    "consequent": "phishing",
+    "support": 0.078,
+    "confidence": 0.9123,
+    "lift": 2.4231,
+    "antecedent_count": 171,
+    "rule_count": 156
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.057,
+    "confidence": 0.912,
+    "lift": 2.4223,
+    "antecedent_count": 125,
+    "rule_count": 114
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "url_very_long"
+    ],
+    "consequent": "phishing",
+    "support": 0.0705,
+    "confidence": 0.9097,
+    "lift": 2.4161,
+    "antecedent_count": 155,
+    "rule_count": 141
+  },
+  {
+    "antecedent": [
+      "external_form",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0865,
+    "confidence": 0.901,
+    "lift": 2.3932,
+    "antecedent_count": 192,
+    "rule_count": 173
+  },
+  {
+    "antecedent": [
+      "no_https",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0785,
+    "confidence": 0.892,
+    "lift": 2.3693,
+    "antecedent_count": 176,
+    "rule_count": 157
+  },
+  {
+    "antecedent": [
+      "has_popup",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.06,
+    "confidence": 0.8824,
+    "lift": 2.3436,
+    "antecedent_count": 136,
+    "rule_count": 120
+  },
+  {
+    "antecedent": [
+      "external_form",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0775,
+    "confidence": 0.8807,
+    "lift": 2.3391,
+    "antecedent_count": 176,
+    "rule_count": 155
+  },
+  {
+    "antecedent": [
+      "young_domain",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.1005,
+    "confidence": 0.8777,
+    "lift": 2.3313,
+    "antecedent_count": 229,
+    "rule_count": 201
+  },
+  {
+    "antecedent": [
+      "many_dots",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0775,
+    "confidence": 0.8757,
+    "lift": 2.3259,
+    "antecedent_count": 177,
+    "rule_count": 155
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "ssl_invalid"
+    ],
+    "consequent": "phishing",
+    "support": 0.0915,
+    "confidence": 0.8756,
+    "lift": 2.3256,
+    "antecedent_count": 209,
+    "rule_count": 183
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "external_favicon"
+    ],
+    "consequent": "phishing",
+    "support": 0.062,
+    "confidence": 0.8732,
+    "lift": 2.3194,
+    "antecedent_count": 142,
+    "rule_count": 124
+  },
+  {
+    "antecedent": [
+      "has_popup",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.058,
+    "confidence": 0.8722,
+    "lift": 2.3165,
+    "antecedent_count": 133,
+    "rule_count": 116
+  },
+  {
+    "antecedent": [
+      "no_right_click",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0535,
+    "confidence": 0.8699,
+    "lift": 2.3105,
+    "antecedent_count": 123,
+    "rule_count": 107
+  },
+  {
+    "antecedent": [
+      "suspicious_keywords",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.08,
+    "confidence": 0.8696,
+    "lift": 2.3096,
+    "antecedent_count": 184,
+    "rule_count": 160
+  },
+  {
+    "antecedent": [
+      "many_subdomains",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0595,
+    "confidence": 0.8686,
+    "lift": 2.3071,
+    "antecedent_count": 137,
+    "rule_count": 119
+  },
+  {
+    "antecedent": [
+      "external_favicon",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0515,
+    "confidence": 0.8655,
+    "lift": 2.2989,
+    "antecedent_count": 119,
+    "rule_count": 103
+  },
+  {
+    "antecedent": [
+      "has_iframe",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0605,
+    "confidence": 0.8643,
+    "lift": 2.2956,
+    "antecedent_count": 140,
+    "rule_count": 121
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "suspicious_js"
+    ],
+    "consequent": "phishing",
+    "support": 0.072,
+    "confidence": 0.8623,
+    "lift": 2.2902,
+    "antecedent_count": 167,
+    "rule_count": 144
+  },
+  {
+    "antecedent": [
+      "suspicious_keywords",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0845,
+    "confidence": 0.8622,
+    "lift": 2.2902,
+    "antecedent_count": 196,
+    "rule_count": 169
+  },
+  {
+    "antecedent": [
+      "no_https",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.073,
+    "confidence": 0.8588,
+    "lift": 2.2811,
+    "antecedent_count": 170,
+    "rule_count": 146
+  },
+  {
+    "antecedent": [
+      "many_redirects",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0665,
+    "confidence": 0.8581,
+    "lift": 2.2791,
+    "antecedent_count": 155,
+    "rule_count": 133
+  },
+  {
+    "antecedent": [
+      "url_very_long",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0595,
+    "confidence": 0.8561,
+    "lift": 2.2739,
+    "antecedent_count": 139,
+    "rule_count": 119
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "url_very_long"
+    ],
+    "consequent": "phishing",
+    "support": 0.1125,
+    "confidence": 0.8555,
+    "lift": 2.2723,
+    "antecedent_count": 263,
+    "rule_count": 225
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "very_young_domain"
+    ],
+    "consequent": "phishing",
+    "support": 0.1115,
+    "confidence": 0.8544,
+    "lift": 2.2693,
+    "antecedent_count": 261,
+    "rule_count": 223
+  },
+  {
+    "antecedent": [
+      "young_domain",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.088,
+    "confidence": 0.8544,
+    "lift": 2.2692,
+    "antecedent_count": 206,
+    "rule_count": 176
+  },
+  {
+    "antecedent": [
+      "many_subdomains",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0675,
+    "confidence": 0.8544,
+    "lift": 2.2694,
+    "antecedent_count": 158,
+    "rule_count": 135
+  },
+  {
+    "antecedent": [
+      "url_long",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0885,
+    "confidence": 0.851,
+    "lift": 2.2602,
+    "antecedent_count": 208,
+    "rule_count": 177
+  },
+  {
+    "antecedent": [
+      "new_cert",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.0625,
+    "confidence": 0.8503,
+    "lift": 2.2585,
+    "antecedent_count": 147,
+    "rule_count": 125
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "hidden_iframe"
+    ],
+    "consequent": "phishing",
+    "support": 0.082,
+    "confidence": 0.8497,
+    "lift": 2.2569,
+    "antecedent_count": 193,
+    "rule_count": 164
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "whois_hidden"
+    ],
+    "consequent": "phishing",
+    "support": 0.082,
+    "confidence": 0.8497,
+    "lift": 2.2569,
+    "antecedent_count": 193,
+    "rule_count": 164
+  },
+  {
+    "antecedent": [
+      "has_dash",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.081,
+    "confidence": 0.8482,
+    "lift": 2.2528,
+    "antecedent_count": 191,
+    "rule_count": 162
+  },
+  {
+    "antecedent": [
+      "ssl_invalid",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.072,
+    "confidence": 0.8471,
+    "lift": 2.2498,
+    "antecedent_count": 170,
+    "rule_count": 144
+  },
+  {
+    "antecedent": [
+      "no_dns",
+      "long_path"
+    ],
+    "consequent": "phishing",
+    "support": 0.074,
+    "confidence": 0.8457,
+    "lift": 2.2463,
+    "antecedent_count": 175,
+    "rule_count": 148
+  },
+  {
+    "antecedent": [
+      "url_very_long",
+      "has_double_slash"
+    ],
+    "consequent": "phishing",
+    "support": 0.0875,
+    "confidence": 0.8413,
+    "lift": 2.2347,
+    "antecedent_count": 208,
+    "rule_count": 175
+  },
+  {
+    "antecedent": [
+      "has_dash",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0735,
+    "confidence": 0.84,
+    "lift": 2.2311,
+    "antecedent_count": 175,
+    "rule_count": 147
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "has_popup"
+    ],
+    "consequent": "phishing",
+    "support": 0.099,
+    "confidence": 0.839,
+    "lift": 2.2284,
+    "antecedent_count": 236,
+    "rule_count": 198
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "external_form"
+    ],
+    "consequent": "phishing",
+    "support": 0.13,
+    "confidence": 0.8387,
+    "lift": 2.2276,
+    "antecedent_count": 310,
+    "rule_count": 260
+  },
+  {
+    "antecedent": [
+      "has_ip",
+      "has_double_slash"
+    ],
+    "consequent": "phishing",
+    "support": 0.0745,
+    "confidence": 0.8371,
+    "lift": 2.2233,
+    "antecedent_count": 178,
+    "rule_count": 149
+  },
+  {
+    "antecedent": [
+      "very_young_domain",
+      "hidden_iframe"
+    ],
+    "consequent": "phishing",
+    "support": 0.092,
+    "confidence": 0.8364,
+    "lift": 2.2214,
+    "antecedent_count": 220,
+    "rule_count": 184
+  },
+  {
+    "antecedent": [
+      "url_long",
+      "no_dns"
+    ],
+    "consequent": "phishing",
+    "support": 0.094,
+    "confidence": 0.8356,
+    "lift": 2.2193,
+    "antecedent_count": 225,
+    "rule_count": 188
+  },
+  {
+    "antecedent": [
+      "hidden_iframe",
+      "external_favicon"
+    ],
+    "consequent": "phishing",
+    "support": 0.076,
+    "confidence": 0.8352,
+    "lift": 2.2182,
+    "antecedent_count": 182,
+    "rule_count": 152
+  },
+  {
+    "antecedent": [
+      "has_iframe",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0525,
+    "confidence": 0.8333,
+    "lift": 2.2134,
+    "antecedent_count": 126,
+    "rule_count": 105
+  },
+  {
+    "antecedent": [
+      "many_dots",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0665,
+    "confidence": 0.8313,
+    "lift": 2.2078,
+    "antecedent_count": 160,
+    "rule_count": 133
+  },
+  {
+    "antecedent": [
+      "whois_hidden",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0775,
+    "confidence": 0.8289,
+    "lift": 2.2015,
+    "antecedent_count": 187,
+    "rule_count": 155
+  },
+  {
+    "antecedent": [
+      "very_young_domain",
+      "has_double_slash"
+    ],
+    "consequent": "phishing",
+    "support": 0.0845,
+    "confidence": 0.8284,
+    "lift": 2.2003,
+    "antecedent_count": 204,
+    "rule_count": 169
+  },
+  {
+    "antecedent": [
+      "external_form",
+      "very_young_domain"
+    ],
+    "consequent": "phishing",
+    "support": 0.1535,
+    "confidence": 0.8275,
+    "lift": 2.1979,
+    "antecedent_count": 371,
+    "rule_count": 307
+  },
+  {
+    "antecedent": [
+      "many_redirects",
+      "has_at"
+    ],
+    "consequent": "phishing",
+    "support": 0.0665,
+    "confidence": 0.8261,
+    "lift": 2.1941,
+    "antecedent_count": 161,
+    "rule_count": 133
+  }
+]

@@ -1,0 +1,18 @@
+
+
+# Added by Project Command Center AI Agent
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+node_modules/
+venv/
+.venv/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
